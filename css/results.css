@@ -1,0 +1,75 @@
+body {
+  background-color: #eaf8ff;
+  background-image: url("../images/result_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.character {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.result {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result .box {
+  min-height: 70px;
+  /*화면의 크기가 줄어들었을 때 박스의 높이가 너무 작아지지 않도록*/
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  line-height: 1.4;
+}
+
+.result h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.result .jobs {
+  height: 200px;
+  display: flex;
+  gap: 10px;
+  /*요소 사이의 간격*/
+}
+
+.result .job {
+  background-color: #fff;
+  flex: 1;
+  /*가로너비 비율*/
+  background-image: url("../images/result_star.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffe603;
+  border-radius: 20px;
+}
+
+.result .lecture img {
+  margin-bottom: 40px;
+  width: 100%;
+}
